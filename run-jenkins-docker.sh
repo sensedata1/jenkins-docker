@@ -1,4 +1,5 @@
 docker run \
+ -u root \
  --group-add docker \
  --name jenkins-docker \
  -p 8080:8080 \
